@@ -1,7 +1,11 @@
 
+<<<<<<< HEAD
 def reverse_each_word(array)
 array.split(" ").collect {|words| words.reverse!}.join(" ")
 end
+=======
+ array.split(" ").collect {|words| words.reverse!}.join(" ")
+>>>>>>> eb3f1f29a732b986429e444382eb9596da4bf178
 
 #  def reverse_each_word(array)
  # new_array = array.split(" ")
