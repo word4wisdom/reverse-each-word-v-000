@@ -1,4 +1,19 @@
-def reverse_each_word(sentence1)
-sentence1.split.collect {|reverse_each_word| reverse_each_word.reverse}.join(" ")
-end
-#a.collect {|x| x + "!" }
+
+def reverse_each_word(array)
+  new_array = array.split(" ")
+  new_array.collect {|words| words.reverse!}
+  new_array.join(" ")
+  end
+
+#  def reverse_each_word(array)
+ # new_array = array.split(" ")
+ # reversed_array = new_array.each {|x| x.reverse!}
+ # return reversed_array.join(" ")
+#end
+
+#def reverse_each_word(array)
+ # new_array = array.split(" ")
+ # new_array.collect {|x| x.reverse!}
+ # new_array.join(" ")
+#end
+
